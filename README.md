@@ -1,200 +1,140 @@
-  <div align="center">
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Alif Rifky — full-stack development, a foundation in C." />
+</p>
 
-  <!-- Typing Header -->
-  <a href="https://github.com/666camo">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=1000&color=E23E57&center=true&vCenter=true&multiline=false&width=680&height=55&lines=%E2%86%B3+ALIF+RIFKY+%7C+FULL+STACK+ENGINEER;%E2%86%B3+HIGH-PERFORMANCE+SYSTEMS+IN+GO;%E2%86%B3+EX-INSTRUCTOR+IN+C+%26+DATA+STRUCTURES;%E2%86%B3+WELCOME+TO+MY+DIGITAL+WORKSPACE" alt="Typing SVG" />
-  </a>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=19&amp;duration=2800&amp;pause=1400&amp;color=C66D87&amp;center=true&amp;vCenter=true&amp;width=480&amp;height=36&amp;lines=Learning+Go.+Building+with+purpose.;From+algorithms+to+applications.;Sharing+what+I+learn+along+the+way." width="480" alt="Learning Go. Building with purpose. From algorithms to applications." />
+</p>
 
-  <p align="center">
-    <b>Crafting scalable distributed backends & modern web apps with algorithmic precision.</b>
-  </p>
+<p align="center">
+  <b>Informatics Engineering student · Bandung, Indonesia</b><br />
+  <sub>Curious about systems. Thoughtful about software. Always learning.</sub>
+</p>
 
-  <!-- Status & Info Badges -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Location-Bandung%2C%20Indonesia-08090C?style=for-the-badge&logo=google-maps&logoColor=E23E57" alt="Location" />
-    <img src="https://img.shields.io/badge/Specialization-Go%20%26%20Distributed%20Systems-08090C?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Specialization" />
-    <img src="https://img.shields.io/badge/Open%20For-Opportunities%20%26%20Collab-08090C?style=for-the-badge&logo=codeforces&logoColor=52D372" alt="Open for" />
-    <a href="https://komarev.com/ghpvc/?username=666camo">
-      <img src="https://komarev.com/ghpvc/?username=666camo&label=PROFILE+VIEWS&color=7B263D&style=for-the-badge" alt="Profile Views" />
-    </a>
-  </p>
-
-  <!-- Connect Channels -->
-  <p align="center">
-    <a href="https://www.linkedin.com/in/alif-rifky-a16144419/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:pratamaalifrifky@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://instagram.com/cptaincm" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="https://github.com/666camo">
-      <img src="https://img.shields.io/badge/Portfolio-7B263D?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
-    </a>
-  </p>
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/alif-rifky-a16144419/"><img src="https://img.shields.io/badge/LinkedIn-111114?style=flat-square&amp;logoColor=C66D87" alt="LinkedIn" /></a>
+  <a href="mailto:pratamaalifrifky@gmail.com"><img src="https://img.shields.io/badge/Email-111114?style=flat-square&amp;logo=gmail&amp;logoColor=C66D87" alt="Email" /></a>
+  <a href="https://instagram.com/cptaincm"><img src="https://img.shields.io/badge/Instagram-111114?style=flat-square&amp;logo=instagram&amp;logoColor=C66D87" alt="Instagram" /></a>
+  <img src="https://komarev.com/ghpvc/?username=666camo&amp;label=Profile%20views&amp;color=7B263D&amp;style=flat-square" alt="Profile views" />
+</p>
 
 ---
 
-### 🖥️ `$ whoami --verbose`
+## `01` / Who I am
 
-```bash
-$ neofetch --profile 666camo
+I explore **full-stack development** with a strong interest in the fundamentals: how data is organized, how algorithms behave, and how applications fit together.
+
+As a **former instructor in C, Algorithmic Logic, and Data Structures**, I enjoy breaking down complex ideas into steps people can understand. Teaching continues to shape the way I learn and write software.
+
+I'm currently learning **Go**, connecting those fundamentals to backend development and concurrent programming.
+
+```text
+alif@workspace ~ $ cat focus.txt
+
+  study   Informatics Engineering
+  learn   Go & backend development
+  share   C, algorithms & structures
+  build   Web applications
+  join    Projects & collaboration
 ```
 
-```yaml
-alif_rifky@cyberdeck
---------------------
-OS        : Arch Linux / Pop!_OS / Windows 11
-Degree    : Informatics Engineering (CS Major)
-Title     : Full Stack Developer / Software Engineer
-Pedagogy  : Former Teaching Assistant / Instructor:
-            ↳ C Programming Fundamentals
-            ↳ Algorithmic Logic & Flow Control
-            ↳ Advanced Data Structures & Memory Management
-Focus     : Go (Golang) Microservices, High Concurrency, Clean Architecture
-Philosophy: "Premature optimization is evil, but bad algorithmic complexity is unforgivable."
-```
+## `02` / Engineering interests
 
----
+**Programming fundamentals**<br />
+C, pointers, data structures, and algorithmic trade-offs—the foundation I keep returning to.
 
-### ⚡ Engineering Disciplines & Pillars
+**Backend & concurrency**<br />
+Learning how APIs, Go concurrency, and service boundaries come together in maintainable systems.
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 01. Algorithmic Mastery & Low-Level</h4>
-      <p>
-        Having mentored students in <b>C & Data Structures</b>, I possess a deep understanding of memory layout, pointers, cache locality, and computational complexity (Big-O). I design software that runs fast and scales cleanly.
-      </p>
-      <sub><code>C</code> • <code>C++</code> • <code>Memory Layout</code> • <code>Algorithm Optimization</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ 02. Scalable Backend & Concurrency</h4>
-      <p>
-        Building resilient microservices and RESTful APIs using <b>Go</b> and <b>Java Spring</b>. Proficient with goroutines, worker pools, asynchronous pipelines, and structured error handling.
-      </p>
-      <sub><code>Go (Golang)</code> • <code>Spring Boot</code> • <code>Node.js</code> • <code>Clean Architecture</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 03. Modern Reactive Frontend</h4>
-      <p>
-        Creating performant, accessible, and reactive user experiences using modern JavaScript/TypeScript ecosystems. Seamless integration between front-facing UI and underlying backend services.
-      </p>
-      <sub><code>React</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>Vite</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔄 04. Distributed Systems & Infrastructure</h4>
-      <p>
-        Integrating distributed caching layers with <b>Redis</b>, message queuing with <b>RabbitMQ</b>, relational database optimization (PostgreSQL/MySQL), and containerization via <b>Docker</b>.
-      </p>
-      <sub><code>PostgreSQL</code> • <code>Redis</code> • <code>RabbitMQ</code> • <code>Docker</code> • <code>Linux</code></sub>
-    </td>
-  </tr>
-</table>
+**Modern web development**<br />
+Exploring interfaces with JavaScript, TypeScript, React, and the wider frontend ecosystem.
 
----
+**Data & infrastructure**<br />
+Working through the role of relational databases, caching, messaging, and containers in application design.
 
-### 🛠️ The Tech Arsenal
+## `03` / Technologies I've explored
 
-<div align="left">
+Tools I've learned, used, or experimented with. **Go is my current learning focus.**
 
-#### 🚀 Primary Languages
+### Languages
+
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,ts,js,c,cpp,java,py,php&perline=8&theme=dark" alt="Languages" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=go&amp;theme=dark" width="44" height="44" alt="Go" title="Go" />
+  <img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" width="44" height="44" alt="TypeScript" title="TypeScript" />
+  <img src="https://skillicons.dev/icons?i=js&amp;theme=dark" width="44" height="44" alt="JavaScript" title="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=c&amp;theme=dark" width="44" height="44" alt="C" title="C" />
+  <img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" width="44" height="44" alt="C++" title="C++" />
+  <img src="https://skillicons.dev/icons?i=java&amp;theme=dark" width="44" height="44" alt="Java" title="Java" />
+  <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" width="44" height="44" alt="Python" title="Python" />
+  <img src="https://skillicons.dev/icons?i=php&amp;theme=dark" width="44" height="44" alt="PHP" title="PHP" />
 </p>
 
-#### ⚡ Backend, Messaging & Caching
+### Backend, messaging & caching
+
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=spring,nodejs,express,redis,rabbitmq&perline=8&theme=dark" alt="Backend and Messaging" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=spring&amp;theme=dark" width="44" height="44" alt="Spring" title="Spring" />
+  <img src="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" width="44" height="44" alt="Node.js" title="Node.js" />
+  <img src="https://skillicons.dev/icons?i=express&amp;theme=dark" width="44" height="44" alt="Express.js" title="Express.js" />
+  <img src="https://skillicons.dev/icons?i=redis&amp;theme=dark" width="44" height="44" alt="Redis" title="Redis" />
+  <img src="https://skillicons.dev/icons?i=rabbitmq&amp;theme=dark" width="44" height="44" alt="RabbitMQ" title="RabbitMQ" />
 </p>
 
-#### 🌐 Frontend Engineering
+### Frontend
+
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,vue,tailwind,html,css,vite&perline=8&theme=dark" alt="Frontend" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=react&amp;theme=dark" width="44" height="44" alt="React" title="React" />
+  <img src="https://skillicons.dev/icons?i=vue&amp;theme=dark" width="44" height="44" alt="Vue" title="Vue" />
+  <img src="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS" />
+  <img src="https://skillicons.dev/icons?i=html&amp;theme=dark" width="44" height="44" alt="HTML5" title="HTML5" />
+  <img src="https://skillicons.dev/icons?i=css&amp;theme=dark" width="44" height="44" alt="CSS3" title="CSS3" />
+  <img src="https://skillicons.dev/icons?i=vite&amp;theme=dark" width="44" height="44" alt="Vite" title="Vite" />
 </p>
 
-#### 🗄️ Databases & Persistence
+### Databases
+
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,mysql&perline=8&theme=dark" alt="Databases" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" width="44" height="44" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="https://skillicons.dev/icons?i=mysql&amp;theme=dark" width="44" height="44" alt="MySQL" title="MySQL" />
 </p>
 
-#### 🛠️ Environment, DevOps & Tools
+### Development tools
+
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,linux,git,github,postman,vscode&perline=8&theme=dark" alt="Tools" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" width="44" height="44" alt="Docker" title="Docker" />
+  <img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" width="44" height="44" alt="Linux" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=git&amp;theme=dark" width="44" height="44" alt="Git" title="Git" />
+  <img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="44" height="44" alt="GitHub" title="GitHub" />
+  <img src="https://skillicons.dev/icons?i=postman&amp;theme=dark" width="44" height="44" alt="Postman" title="Postman" />
+  <img src="https://skillicons.dev/icons?i=vscode&amp;theme=dark" width="44" height="44" alt="VS Code" title="VS Code" />
 </p>
 
-</div>
+## `04` / Coding activity
 
----
-
-### 🛰️ What I'm Currently Focused On
-
-- 🔭 **Building:** High-throughput microservice prototypes with Go (Gin/Fiber), gRPC, and RabbitMQ.
-- 📚 **Deep Diving:** Concurrency design patterns, Go memory profiler (`pprof`), and event-driven architectures.
-- 💡 **Open to:** Challenging full-stack projects, open-source contributions, and engineering discussions.
-- 💬 **Ask me about:** C memory allocation, algorithm trade-offs, Go goroutines, and backend scalability.
-
----
-
-### 📈 GitHub Analytics & Productivity
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=666camo&show_icons=true&hide_border=true&bg_color=08090C&title_color=E23E57&icon_color=E23E57&text_color=9CA3AF&ring_color=E23E57" width="100%" alt="GitHub Stats" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=666camo&hide_border=true&background=08090C&border=E23E57&stroke=E23E57&ring=E23E57&fire=E23E57&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E23E57&dates=6B7280" width="100%" alt="Streak Stats" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=666camo&layout=compact&hide_border=true&bg_color=08090C&title_color=E23E57&text_color=9CA3AF" width="70%" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### ⏳ Tracked Coding Activity
+All-time activity recorded by WakaTime.
 
 <!--START_SECTION:waka-->
 ```txt
-Loading coding stats from WakaTime...
+Total Time: 0 secs
+
+No activity tracked
 ```
 <!--END_SECTION:waka-->
 
-<sub>*Updated automatically via WakaTime GitHub Action runner.*</sub>
+<sub>Updated daily from connected editors. Recording starts when WakaTime is active.</sub>
+
+## `05` / Contribution stream
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/666camo/666camo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake with a black canvas, maroon body, and rose head" />
+</p>
+
+<p align="center">
+  <sub>My GitHub contributions, in motion · Updated every 12 hours</sub>
+</p>
 
 ---
 
-### 🐍 Contribution Stream
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/666camo/666camo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Alif's Contribution Snake" />
-</div>
-
----
-
-<div align="center">
-  <sub>⚡ <i>"Simplicity is prerequisite for reliability." — Edsger W. Dijkstra</i> ⚡</sub><br/>
-  <sub>Crafted with passion by <b>Alif Rifky</b> (<a href="https://github.com/666camo">@666camo</a>) • Bandung, Indonesia</sub>
-</div>
+<p align="center">
+  <b>Good software starts with understanding.</b><br />
+  <sub>Building, learning, and sharing — one commit at a time.</sub>
+</p>

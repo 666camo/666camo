@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title description">
-  <title id="title">Hi, I'm Alif Rifky.</title>
-  <desc id="description">Informatics Engineering Student. Minimal black and maroon profile header.</desc>
-  <rect width="960" height="260" rx="12" fill="#08080A"/>
-  <rect x="0.5" y="0.5" width="959" height="259" rx="12" fill="none" stroke="#34252B"/>
-  <path d="M40 40H112" stroke="#7B263D" stroke-width="4"/>
-  <text x="40" y="125" fill="#F2EEF0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">Hi, I'm Alif Rifky.</text>
-  <text x="42" y="177" fill="#AAA2A7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28">Informatics Engineering Student</text>
-  <text x="42" y="225" fill="#C66D87" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" letter-spacing="3">LEARN. BUILD. SHARE.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="292" viewBox="0 0 960 292" role="img" aria-labelledby="title desc">
+<title id="title">Alif Rifky — full-stack development, learning Go</title>
+<desc id="desc">A black and maroon terminal. Informatics Engineering student and former instructor in C, algorithms, and data structures.</desc>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#34252B" stroke-opacity=".24"/></pattern></defs>
+<rect width="960" height="292" rx="14" fill="#08080A"/>
+<rect x=".5" y=".5" width="959" height="291" rx="14" fill="none" stroke="#34252B"/>
+<path d="M1 46H959" stroke="#34252B"/>
+<circle cx="26" cy="24" r="5" fill="#7B263D"/><circle cx="44" cy="24" r="5" fill="#57303D"/><circle cx="62" cy="24" r="5" fill="#34252B"/>
+<text x="92" y="29" fill="#AAA2A7" font-family="Consolas,monospace" font-size="15">666camo / workspace</text>
+<rect x="650" y="47" width="309" height="244" fill="url(#grid)"/>
+<text x="38" y="92" fill="#C66D87" font-family="Consolas,monospace" font-size="21">$ whoami</text>
+<text x="36" y="160" fill="#F2EEF0" font-family="Segoe UI,Arial,sans-serif" font-size="63" font-weight="700" letter-spacing="-2">ALIF RIFKY<tspan fill="#A43E5A">.</tspan></text>
+<text x="40" y="206" fill="#AAA2A7" font-family="Segoe UI,Arial,sans-serif" font-size="25">Full-stack development. A foundation in C.</text>
+<path d="M40 242H88" stroke="#7B263D" stroke-width="3"/>
+<text x="106" y="249" fill="#C66D87" font-family="Consolas,monospace" font-size="18">LEARN / BUILD / SHARE</text>
+<text x="786" y="181" fill="#7B263D" opacity=".55" font-family="Consolas,monospace" font-size="96">{ }</text>
 </svg>

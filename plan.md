@@ -368,3 +368,14 @@ Pekerjaan dinyatakan selesai apabila:
 - Halaman GitHub asli diperiksa pada 1280 px dan 390 px: semua gambar README tampil, tidak ada overflow halaman. Screenshot tersedia dalam paket lokal.
 - Review independen: tidak ada temuan yang perlu diperbaiki; siap publikasi.
 - Batasan: isi riwayat WakaTime bergantung pada editor terhubung; layanan ikon/counter eksternal bergantung pada penyedianya.
+
+
+## 12. Revisi sesuai README_PROFILE.md pengguna
+
+- Header terminal lokal dengan aksen maroon/rose dan animasi subtitle.
+- Heading bernomor, badge kontak senada, teks engineering lebih ringkas.
+- 27 teknologi: menambahkan Vue dari versi pengguna; Go diletakkan pertama sebagai fokus belajar.
+- Kartu GitHub Stats eksternal ditiadakan setelah endpoint mengembalikan HTTP 503. Snake dan WakaTime tetap menggunakan data asli.
+- Teks Go tetap sebagai proses belajar sesuai informasi pengguna sebelumnya.
+- Blok WakaTime dipulihkan dari hasil otomasi terakhir, bukan contoh statistik.
+- Layout menggunakan kelompok ikon terpisah agar membungkus pada mobile.

@@ -1,6 +1,6 @@
 # PLAN — GitHub Profile README | Alif Rifky
 
-> **Status:** Implementasi selesai; validasi dan publikasi sedang berjalan  
+> **Status:** Selesai — terbit di github.com/666camo; kedua workflow berhasil  
 > **Konsep:** **Noir / Maroon Developer Profile**  
 > **Target:** Profil GitHub yang elegan, minimalis, dominan hitam, dengan aksen maroon yang tidak berlebihan.  
 > **Bahasa konten README:** Bahasa Inggris yang ringkas dan profesional; catatan proyek ini menggunakan Bahasa Indonesia.
@@ -288,16 +288,16 @@ Rencana implementasi:
 - [x] Sesuaikan `snake.yml` untuk warna black-maroon.
 - [x] Pastikan izin GitHub Actions menulis output.
 - [x] Periksa dan sesuaikan `wakatime.yml` serta secret.
-- [ ] Jalankan dua workflow secara manual dan verifikasi hasil.
-- [ ] Pastikan update WakaTime tidak menghapus konten README lainnya.
+- [x] Jalankan dua workflow melalui push publikasi dan verifikasi hasil; workflow_dispatch tersedia untuk menjalankan ulang.
+- [x] Pastikan update WakaTime tidak menghapus konten README lainnya.
 
 ### Fase D — Quality Assurance
-- [ ] Preview README di **GitHub desktop dark mode**.
-- [ ] Preview README di **mobile**.
+- [x] Preview README di **GitHub desktop dark mode**.
+- [x] Preview README di **mobile**.
 - [x] Periksa kontras teks dan maroon pada elemen penting.
 - [x] Pastikan ikon teknologinya lengkap dan tidak rusak.
-- [ ] Pastikan image, badge, grafik, dan SVG snake bisa diakses publik.
-- [ ] Pastikan angka WakaTime berasal dari API, bukan contoh.
+- [x] Pastikan image, badge, grafik, dan SVG snake bisa diakses publik.
+- [x] Pastikan angka WakaTime berasal dari API, bukan contoh.
 - [x] Pastikan token/API key tidak terekspos.
 - [x] Pastikan tampilan tidak terlihat seperti tema RPG dan tidak terlalu ramai.
 
@@ -355,4 +355,16 @@ Pekerjaan dinyatakan selesai apabila:
 - Marker WakaTime tepat satu pasang; 26 ikon sesuai urutan.
 - Header SVG valid. Pemrosesan snake diuji pada SVG asli generator; animasi tetap ada.
 - Pratinjau bergaya GitHub dark pada 1200 px dan 390 px: tidak ada overflow halaman atau gambar gagal. Pratinjau lokal bukan screenshot halaman GitHub langsung.
-- Publikasi dan hasil GitHub Actions menunggu pemeriksaan akhir.
+- Publikasi berhasil dan kedua workflow selesai sukses; lihat bukti berikut.
+
+### Hasil publikasi
+
+- Profil: https://github.com/666camo
+- Snake sukses: https://github.com/666camo/666camo/actions/runs/41084382101
+- WakaTime sukses: https://github.com/666camo/666camo/actions/runs/41084381980
+- API WakaTime mengembalikan Total Time: 0 secs / No activity tracked. Angka bukan contoh; data akan terisi setelah aktivitas editor tercatat.
+- Diff commit otomatis hanya memperbarui isi marker WakaTime.
+- SVG publik telah diperiksa: canvas #08080A, tubuh #7B263D, kepala #C66D87, keyframes animasi utuh.
+- Halaman GitHub asli diperiksa pada 1280 px dan 390 px: semua gambar README tampil, tidak ada overflow halaman. Screenshot tersedia dalam paket lokal.
+- Review independen: tidak ada temuan yang perlu diperbaiki; siap publikasi.
+- Batasan: isi riwayat WakaTime bergantung pada editor terhubung; layanan ikon/counter eksternal bergantung pada penyedianya.

@@ -1,0 +1,47 @@
+name: WakaTime coding activity
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/wakatime.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wakatime-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check WakaTime credential
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          if [ -z "$WAKATIME_API_KEY" ]; then
+            echo "::error::Add the WAKATIME_API_KEY repository secret with a WakaTime OAuth token that can read stats."
+            exit 1
+          fi
+
+      - name: Update all-time coding activity
+        # Pinned revision supports OAuth read access to WakaTime statistics.
+        uses: athul/waka-readme@8991b596d85696d98ea96f775390a1bbe266c8c9
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_BRANCH: main
+          TARGET_PATH: README.md
+          TIME_RANGE: all_time
+          LANG_COUNT: "8"
+          SHOW_TIME: "true"
+          SHOW_TOTAL: "true"
+          SHOW_TITLE: "false"
+          BLOCKS: "░▒▓█"
+          COMMIT_MESSAGE: "docs: update WakaTime coding activity"

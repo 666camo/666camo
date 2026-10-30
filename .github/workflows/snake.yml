@@ -1,8 +1,8 @@
-name: Generate contribution snake
+name: Contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches: [main, master]
@@ -14,24 +14,46 @@ permissions:
 
 concurrency:
   group: contribution-snake
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
+      - name: Generate contribution animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%237B263D&color_dots=%231B1A1E,%23352028,%23572637,%2387334D,%23C66D87
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%237B263D&color_dots=%231B1A1E,%23352028,%23572637,%2387334D,%23C66D87
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish SVGs
+      - name: Apply noir canvas and rose head
+        shell: python
+        run: |
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          ns = "{http://www.w3.org/2000/svg}"
+          ET.register_namespace("", ns[1:-1])
+          for path in Path("dist").glob("*.svg"):
+              tree = ET.parse(path)
+              root = tree.getroot()
+              x, y, width, height = root.attrib["viewBox"].split()
+              head = root.find(f"{ns}rect[@class='s s0']")
+              if head is None:
+                  raise RuntimeError("Snake head not found; check generator output")
+              head.set("style", "fill:#C66D87")
+              root.insert(0, ET.Element(f"{ns}rect", {
+                  "x": x, "y": y, "width": width, "height": height,
+                  "fill": "#08080A"
+              }))
+              tree.write(path, encoding="unicode")
+
+      - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

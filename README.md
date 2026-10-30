@@ -1,120 +1,88 @@
-<div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Alif Rifky — 666camo. Fullstack Developer. Currently learning Go." />
-</div>
-
-<br />
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3200&amp;pause=1200&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=Hello%2C+world.+I%27m+Alif+Rifky.;Fullstack+Developer+%7C+Always+Learning;Current+Quest%3A+Learning+Go;Build.+Learn.+Level+up." alt="Fullstack Developer. Current quest: learning Go." />
+<p>
+  <img src="./assets/header.svg" width="100%" alt="Hi, I'm Alif Rifky. Informatics Engineering Student." />
 </p>
 
-<p align="center">
-  <a href="https://github.com/666camo?tab=repositories"><img src="https://img.shields.io/badge/Explore-My_Repositories-38BDF8?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1220" alt="Explore my repositories" /></a>
-  <a href="https://github.com/666camo"><img src="https://img.shields.io/badge/GitHub-666camo-FB7185?style=for-the-badge&amp;logo=github&amp;labelColor=0B1220" alt="666camo on GitHub" /></a>
+**Bandung, Indonesia** · Problem solving, algorithms & software development.
+
+<img src="https://komarev.com/ghpvc/?username=666camo&amp;label=Profile%20views&amp;color=7B263D&amp;style=flat" alt="Profile views" />
+
+## About me
+
+I'm an Informatics Engineering student who enjoys understanding how things work, solving problems step by step, and turning ideas into software.
+
+I previously taught **C, Algorithmic Logic, and Data Structures** as an instructor. Explaining the fundamentals to others has shaped the way I learn and approach problems.
+
+I'm currently learning **Go**, while continuing to explore web and backend development.
+
+## Technologies I've learned & explored
+
+A collection of languages and tools I've worked with along the way.
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=c&amp;theme=dark" width="48" height="48" alt="C" title="C" />
+  <img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" width="48" height="48" alt="C++" title="C++" />
+  <img src="https://skillicons.dev/icons?i=java&amp;theme=dark" width="48" height="48" alt="Java" title="Java" />
+  <img src="https://skillicons.dev/icons?i=js&amp;theme=dark" width="48" height="48" alt="JavaScript" title="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" width="48" height="48" alt="TypeScript" title="TypeScript" />
+  <img src="https://skillicons.dev/icons?i=py&amp;theme=dark" width="48" height="48" alt="Python" title="Python" />
+  <img src="https://skillicons.dev/icons?i=php&amp;theme=dark" width="48" height="48" alt="PHP" title="PHP" />
+  <img src="https://skillicons.dev/icons?i=go&amp;theme=dark" width="48" height="48" alt="Go" title="Go" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+### Web, backend & data
 
-## 👋 About me
+<p>
+  <img src="https://skillicons.dev/icons?i=html&amp;theme=dark" width="48" height="48" alt="HTML5" title="HTML5" />
+  <img src="https://skillicons.dev/icons?i=css&amp;theme=dark" width="48" height="48" alt="CSS3" title="CSS3" />
+  <img src="https://skillicons.dev/icons?i=react&amp;theme=dark" width="48" height="48" alt="React" title="React" />
+  <img src="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS" />
+  <img src="https://skillicons.dev/icons?i=spring&amp;theme=dark" width="48" height="48" alt="Spring" title="Spring" />
+  <img src="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" width="48" height="48" alt="Node.js" title="Node.js" />
+  <img src="https://skillicons.dev/icons?i=express&amp;theme=dark" width="48" height="48" alt="Express.js" title="Express.js" />
+  <img src="https://skillicons.dev/icons?i=mysql&amp;theme=dark" width="48" height="48" alt="MySQL" title="MySQL" />
+  <img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="https://skillicons.dev/icons?i=redis&amp;theme=dark" width="48" height="48" alt="Redis" title="Redis" />
+  <img src="https://skillicons.dev/icons?i=rabbitmq&amp;theme=dark" width="48" height="48" alt="RabbitMQ" title="RabbitMQ" />
+</p>
 
-I'm **Alif Rifky**, a fullstack developer exploring how thoughtful interfaces and reliable backends work together. I learn by building, breaking things down, and improving one step at a time.
+### Development tools
 
-My current focus is **Go (Golang)**: learning its syntax, understanding interfaces, and exploring how to build HTTP services.
+<p>
+  <img src="https://skillicons.dev/icons?i=git&amp;theme=dark" width="48" height="48" alt="Git" title="Git" />
+  <img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="48" height="48" alt="GitHub" title="GitHub" />
+  <img src="https://skillicons.dev/icons?i=vscode&amp;theme=dark" width="48" height="48" alt="VS Code" title="VS Code" />
+  <img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" width="48" height="48" alt="Linux" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" width="48" height="48" alt="Docker" title="Docker" />
+  <img src="https://skillicons.dev/icons?i=postman&amp;theme=dark" width="48" height="48" alt="Postman" title="Postman" />
+  <img src="https://skillicons.dev/icons?i=vite&amp;theme=dark" width="48" height="48" alt="Vite" title="Vite" />
+</p>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧑‍💻 Developer attributes</h3>
-      <ul>
-        <li><strong>Handle:</strong> 666camo</li>
-        <li><strong>Class:</strong> Fullstack Developer</li>
-        <li><strong>Main quest:</strong> Learn through building</li>
-        <li><strong>Current quest:</strong> Go / Golang</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Developer status</h3>
-      <p><img src="https://img.shields.io/badge/BUILD-LEARN-38BDF8?style=flat-square&amp;labelColor=0B1220" alt="Build and learn" /> <img src="https://img.shields.io/badge/DEBUG-REPEAT-FB7185?style=flat-square&amp;labelColor=0B1220" alt="Debug and repeat" /></p>
-      <p><strong>Next checkpoint</strong><br />Build a small HTTP API with Go.</p>
-      <p><sub>Progress is measured in things understood and built.</sub></p>
-    </td>
-  </tr>
-</table>
+## Coding activity
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+All-time coding activity recorded through WakaTime.
 
-## 🎒 Learning inventory
+<!--START_SECTION:waka-->
+_Coding activity will appear here after the first successful WakaTime sync._
+<!--END_SECTION:waka-->
 
-Languages and tools I'm learning and exploring across the stack.
+<sub>Updated automatically via WakaTime · Includes activity recorded by connected editors.</sub>
 
-**Languages**
+## Contribution snake
 
-<p><img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,py,php,go&amp;theme=dark&amp;perline=8" alt="C, C++, Java, JavaScript, TypeScript, Python, PHP, Go" /></p>
+<p>
+  <img src="https://raw.githubusercontent.com/666camo/666camo/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animation of my GitHub contributions in black and maroon" />
+</p>
 
-**Web, backend & data**
+<sub>Generated from my GitHub contributions · Updated every 12 hours.</sub>
 
-<p><img src="https://skillicons.dev/icons?i=html,css,react,tailwind,spring,nodejs,express,mysql,postgres,redis,rabbitmq&amp;theme=dark&amp;perline=8" alt="HTML, CSS, React, Tailwind, Spring, Node.js, Express, MySQL, PostgreSQL, Redis, RabbitMQ" /></p>
+## Connect
 
-**Development tools**
+[Instagram](https://instagram.com/cptaincm) &nbsp; / &nbsp;
+[LinkedIn](https://www.linkedin.com/in/alif-rifky-a16144419/) &nbsp; / &nbsp;
+[Email](mailto:pratamaalifrifky@gmail.com)
 
-<p><img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker,postman,vite&amp;theme=dark&amp;perline=7" alt="Git, GitHub, VS Code, Linux, Docker, Postman, Vite" /></p>
+---
 
-### 🐹 Current quest: Go
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, Go. Let's build something.")
-}
-```
-
-`Syntax & types` → `Structs & interfaces` → `Errors & testing` → `HTTP APIs` → `Goroutines & channels`
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-## 🗺️ Build roadmap
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 / Backend systems</h3>
-      <p>Explore HTTP APIs, application structure, databases, and clear error handling.</p>
-      <p><code>Go</code> <code>Java / Spring</code> <code>SQL</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 / Web experiences</h3>
-      <p>Build responsive interfaces and connect them to useful backend services.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Tailwind CSS</code></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://github.com/666camo?tab=repositories"><strong>Explore what I'm building →</strong></a></p>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-## 📈 Quest history
-
-<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=666camo&amp;bg_color=0b1220&amp;color=94a3b8&amp;line=38bdf8&amp;point=fb7185&amp;area=true&amp;hide_border=true" width="100%" alt="GitHub contribution activity for 666camo" /></p>
-
-<details>
-  <summary><strong>🐍 Contribution serpent</strong></summary>
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/666camo/666camo/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/666camo/666camo/output/github-contribution-grid-snake.svg" alt="Contribution snake — generated by the included GitHub Actions workflow" width="100%" />
-  </picture>
-</details>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<div align="center">
-  <h3>💾 Save point</h3>
-  <p>Learning, building, and making the next version better.</p>
-  <a href="https://github.com/666camo"><img src="https://img.shields.io/badge/GitHub-666camo-38BDF8?style=for-the-badge&amp;logo=github&amp;labelColor=0B1220" alt="666camo on GitHub" /></a>
-  <br /><br />
-  <sub>Small steps. Useful builds. Continuous progress.</sub>
-</div>
+<sub>Building, learning, and sharing — one commit at a time.</sub>

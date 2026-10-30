@@ -64,7 +64,13 @@ A collection of languages and tools I've worked with along the way.
 All-time coding activity recorded through WakaTime.
 
 <!--START_SECTION:waka-->
-_Coding activity will appear here after the first successful WakaTime sync._
+
+```txt
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 <sub>Updated automatically via WakaTime · Includes activity recorded by connected editors.</sub>

@@ -113,11 +113,13 @@ Tools I've learned, used, or experimented with. **Go is my current learning focu
 All-time activity recorded by WakaTime.
 
 <!--START_SECTION:waka-->
+
 ```txt
 Total Time: 0 secs
 
 No activity tracked
 ```
+
 <!--END_SECTION:waka-->
 
 <sub>Updated daily from connected editors. Recording starts when WakaTime is active.</sub>

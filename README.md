@@ -115,9 +115,10 @@ All-time activity recorded by WakaTime.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 0 secs
+Total Time: 18 mins
 
-No activity tracked
+Markdown   18 mins               ███████████████░░░░░░░░░░   60.23 %
+Other      12 mins               ██████████░░░░░░░░░░░░░░░   39.77 %
 ```
 
 <!--END_SECTION:waka-->
